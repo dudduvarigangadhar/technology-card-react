@@ -1,0 +1,47 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.designation {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.jobDescription {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+.jobCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  margin-right: 20px;
+  max-height: 300px;
+}
+.image {
+  display: flex;
+  align-self: flex-end;
+  width: 80px;
+}
+@media screen and (max-width: 768px) {
+  .jobCard {
+    width: 250px;
+  }
+}
